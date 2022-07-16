@@ -10,17 +10,17 @@
     "description": "Web CRM",
     "orientation": "portrait",
     "background_color": "#ffffff",
-    "related_applications": [],
-    "prefer_related_applications": false,
+    "related_/nds-dashboard/Applications": [],
+    "prefer_related_/nds-dashboard/Applications": false,
     "screenshots": [
       {
-        "src": "App/Resources/NDS-512.png"
+        "src": "/nds-dashboard/App/Resources/NDS-512.png"
       },
       {
-        "src": "App/Resources/NDS-512.png"
+        "src": "/nds-dashboard/App/Resources/NDS-512.png"
       },
       {
-        "src": "App/Resources/NDS-512.png"
+        "src": "/nds-dashboard/App/Resources/NDS-512.png"
       }
     ],
     "features": [
@@ -37,7 +37,7 @@
         "url": "/?startLive",
         "icons": [
           {
-            "src": "App/Resources/NDS-128.png",
+            "src": "/nds-dashboard/App/Resources/NDS-128.png",
             "sizes": "192x192"
           }
         ]
@@ -45,24 +45,24 @@
     ],
     "icons": [
       {
-        "src": "App/Resources/NDS-64.png",
+        "src": "/nds-dashboard/App/Resources/NDS-64.png",
         "sizes": "64x64"
       },
       {
-        "src": "App/Resources/NDS-192.png",
+        "src": "/nds-dashboard/App/Resources/NDS-192.png",
         "sizes": "192x192",
         "purpose": "maskable"
       },
       {
-        "src": "App/Resources/NDS-48.png",
+        "src": "/nds-dashboard/App/Resources/NDS-48.png",
         "sizes": "48x48"
       },
       {
-        "src": "App/Resources/NDS-512.png",
+        "src": "/nds-dashboard/App/Resources/NDS-512.png",
         "sizes": "512x512"
       },
       {
-        "src": "App/Resources/NDS-28.png",
+        "src": "/nds-dashboard/App/Resources/NDS-28.png",
         "sizes": "28x28"
       }
     ]

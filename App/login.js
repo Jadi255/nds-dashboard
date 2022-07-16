@@ -17,7 +17,7 @@ async function authenticate(){
           sessionStorage.setItem('User', User.data.results[0].id);
           sessionStorage.setItem('Name', User.data.results[0].Name);
           sessionStorage.setItem('Status', User.data.results[0].Status.value);
-          window.location.replace('app/main.html');
+          window.location.replace('/nds-dashboard/App/main.html');
       } else{
           alert("الرجاء التأكد من صحة المعلومات المدخلة")
       }

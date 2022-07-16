@@ -16,7 +16,7 @@ async function getProducts(){
     var option = document.createElement('option');
     option.value = ProductNames[i].id;
     option.innerText = ProductNames[i].Name
-    Samples.appendChild(option);
+    Samples./nds-dashboard/AppendChild(option);
   }
 }
 
@@ -46,7 +46,7 @@ DoctorName.addEventListener('input', async()=>{
       var option = document.createElement('option');
       option.value = Names[i].id;
       option.innerText = Names[i].doctorName + " - " + Names[i].Area[0].value;
-      DoctorNamesList.appendChild(option);
+      DoctorNamesList./nds-dashboard/AppendChild(option);
     }
 
     var Info = document.getElementById('Info');
@@ -88,7 +88,7 @@ async function Save(){
       url: "https://api.baserow.io/api/database/rows/table/70307/?user_field_names=true",
       headers: {
         Authorization: token,
-        "Content-Type": "application/json"
+        "Content-Type": "/nds-dashboard/Application/json"
       },
       data: {
         "Rep": [

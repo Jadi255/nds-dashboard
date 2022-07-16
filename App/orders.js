@@ -17,7 +17,7 @@ async function getProducts(){
     var option = document.createElement('option');
     option.value = ProductNames[i].id;
     option.innerText = ProductNames[i].Name
-    Products.appendChild(option);
+    Products./nds-dashboard/AppendChild(option);
   }
 }
 
@@ -46,7 +46,7 @@ PharmacyName.addEventListener('input', async()=>{
     var option = document.createElement('option');
     option.value = Names[i].id;
     option.innerText = Names[i].pharmacyName + " - " + Names[i].Address[0].value;
-    PharmacyNamesList.appendChild(option);
+    PharmacyNamesList./nds-dashboard/AppendChild(option);
   }
 
   PharmacyNamesList.addEventListener('change', ()=>{
@@ -100,7 +100,7 @@ var Order = await axios({
   url: "https://api.baserow.io/api/database/rows/table/70310/?user_field_names=true",
   headers: {
     Authorization: token,
-    "Content-Type": "application/json"
+    "Content-Type": "/nds-dashboard/Application/json"
   },
   data: {
     "Date": OrderDate,

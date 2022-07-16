@@ -13,7 +13,7 @@ async function AskLeave(){
             url: "https://api.baserow.io/api/database/rows/table/76537/?user_field_names=true",
             headers: {
             Authorization: token,
-            "Content-Type": "application/json"
+            "Content-Type": "/nds-dashboard/Application/json"
             },
             data: {
             "Reason": Reason,
