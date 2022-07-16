@@ -21,10 +21,10 @@ const RUNTIME = 'runtime';
 const PRECACHE_URLS = [
   'index.html',
   './', // Alias for index.html
-  '/App/Resources/bootstrap.min.css',
-  '/App/Resources/jquery-3.3.1.slim.min.js',
-  '/App/Resources/popper.min.js',
-  '/App/Resources/bootstrap.min.js',
+  'App/Resources/bootstrap.min.css',
+  'App/Resources/jquery-3.3.1.slim.min.js',
+  'App/Resources/popper.min.js',
+  'App/Resources/bootstrap.min.js',
 ];
 
 // The install handler takes care of precaching the resources we always need.
