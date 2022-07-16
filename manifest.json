@@ -2,7 +2,7 @@
     "dir": "ltr",
     "lang": "ar",
     "name": "Nasereddin Drug Store",
-    "scope": "/nds-dashboard/",
+    "scope": "/",
     "display": "standalone",
     "start_url": "index.html",
     "short_name": "NDS",
@@ -14,13 +14,13 @@
     "prefer_related_applications": false,
     "screenshots": [
       {
-        "src": "/nds-dashboard/App/Resources/NDS-512.png"
+        "src": "App/Resources/NDS-512.png"
       },
       {
-        "src": "/nds-dashboard/App/Resources/NDS-512.png"
+        "src": "App/Resources/NDS-512.png"
       },
       {
-        "src": "/nds-dashboard/App/Resources/NDS-512.png"
+        "src": "App/Resources/NDS-512.png"
       }
     ],
     "features": [
@@ -37,7 +37,7 @@
         "url": "/?startLive",
         "icons": [
           {
-            "src": "/nds-dashboard/App/Resources/NDS-128.png",
+            "src": "App/Resources/NDS-128.png",
             "sizes": "192x192"
           }
         ]
@@ -45,24 +45,24 @@
     ],
     "icons": [
       {
-        "src": "/nds-dashboard/App/Resources/NDS-64.png",
+        "src": "App/Resources/NDS-64.png",
         "sizes": "64x64"
       },
       {
-        "src": "/nds-dashboard/App/Resources/NDS-192.png",
+        "src": "App/Resources/NDS-192.png",
         "sizes": "192x192",
         "purpose": "maskable"
       },
       {
-        "src": "/nds-dashboard/App/Resources/NDS-48.png",
+        "src": "App/Resources/NDS-48.png",
         "sizes": "48x48"
       },
       {
-        "src": "/nds-dashboard/App/Resources/NDS-512.png",
+        "src": "App/Resources/NDS-512.png",
         "sizes": "512x512"
       },
       {
-        "src": "/nds-dashboard/App/Resources/NDS-28.png",
+        "src": "App/Resources/NDS-28.png",
         "sizes": "28x28"
       }
     ]

@@ -21,10 +21,12 @@ const RUNTIME = 'runtime';
 const PRECACHE_URLS = [
   'index.html',
   './', // Alias for index.html
-  '/nds-dashboard/App/Resources/bootstrap.min.css',
-  '/nds-dashboard/App/Resources/jquery-3.3.1.slim.min.js',
-  '/nds-dashboard/App/Resources/popper.min.js',
-  '/nds-dashboard/App/Resources/bootstrap.min.js',
+  'App/Resources/bootstrap.min.css',
+  'App/Resources/jquery-3.3.1.slim.min.js',
+  'App/Resources/popper.min.js',
+  'App/Resources/bootstrap.min.js',
+  'App/',
+  'App/Resources/'
 ];
 
 // The install handler takes care of precaching the resources we always need.
