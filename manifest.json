@@ -2,7 +2,7 @@
     "dir": "ltr",
     "lang": "ar",
     "name": "Nasereddin Drug Store",
-    "scope": "/",
+    "scope": "/nds-dashboard/",
     "display": "standalone",
     "start_url": "index.html",
     "short_name": "NDS",
@@ -10,8 +10,8 @@
     "description": "Web CRM",
     "orientation": "portrait",
     "background_color": "#ffffff",
-    "related_/nds-dashboard/Applications": [],
-    "prefer_related_/nds-dashboard/Applications": false,
+    "related_applications": [],
+    "prefer_related_applications": false,
     "screenshots": [
       {
         "src": "/nds-dashboard/App/Resources/NDS-512.png"
