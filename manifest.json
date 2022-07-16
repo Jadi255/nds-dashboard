@@ -1,0 +1,69 @@
+{
+    "dir": "ltr",
+    "lang": "ar",
+    "name": "Nasereddin Drug Store",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "index.html",
+    "short_name": "NDS",
+    "theme_color": "#ebebeb",
+    "description": "Web CRM",
+    "orientation": "portrait",
+    "background_color": "#ffffff",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "screenshots": [
+      {
+        "src": "/App/Resources/NDS-512.png"
+      },
+      {
+        "src": "/App/Resources/NDS-512.png"
+      },
+      {
+        "src": "/App/Resources/NDS-512.png"
+      }
+    ],
+    "features": [
+      "Cross Platform",
+      "low-latency inking",
+      "fast",
+      "useful AI"
+    ],
+    "shortcuts": [
+      {
+        "name": "Start Live Session",
+        "short_name": "Start Live",
+        "description": "Jump direction into starting or joining a live session",
+        "url": "/?startLive",
+        "icons": [
+          {
+            "src": "/App/Resources/NDS-128.png",
+            "sizes": "192x192"
+          }
+        ]
+      }
+    ],
+    "icons": [
+      {
+        "src": "/App/Resources/NDS-64.png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "/App/Resources/NDS-192.png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/App/Resources/NDS-48.png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "/App/Resources/NDS-512.png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/App/Resources/NDS-28.png",
+        "sizes": "28x28"
+      }
+    ]
+  }

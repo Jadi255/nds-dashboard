@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ebebeb">
+  <link rel="stylesheet" href="/App/Resources/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="/App/Resources/NDS-192.png">
+
+    <title>Nasereddin Drugstore</title>
+</head>
+<body onload="checkauth()">
+    <!-- Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+          <img src="/App/Resources/NDS-512.png" width="75">
+        </a>        
+      <a class="navbar-brand" href="#"><small><strong>
+           مستودع أدوية ناصر الدين
+          </strong>
+          </small>
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" dir="rtl">
+          <li class="nav-item active">
+              <a class="nav-link" href="main.html">الرئيسية<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="orders.html">الطلبيات<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="cashflow.html">التحصيل<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  الزيارات
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/App/doctorvisit.html">زيارة طبيب</a>
+                <a class="dropdown-item" href="/app/pharmacyvisit.html">زيارة صيدلية</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" onclick="logout();">تسجيل خروج<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+      </div>
+  </nav>  
+
+    <!-- Navbar End -->
+
+    <div style="padding:2.5%;">
+        <div class="container-fluid">
+            <br>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">طلب إجازة / مغادرة</h5>
+                <br>
+                <div class="form-group">
+                  <label for="Type">اختر النوع</label>
+                  <select class="form-control" id="Type" required>
+                    <option selected disabled>اختر النوع</option>
+                    <option value="160967">إجازة</option>
+                    <option value="160966">مغادرة</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="Purpose">سبب الإجازة / المغادرة</label>
+                  <input list="NamesList" class="form-control" id="Purpose" aria-describedby="emailHelp" required>              
+                </div>
+                <div class="form-group">
+                  <label for="StartDate">من</label>
+                  <input type="datetime-local" class="form-control" id="StartDate" aria-describedby="emailHelp" required>              
+                </div>
+                <div class="form-group">
+                  <label for="EndDate">إلى</label>
+                  <input type="datetime-local" class="form-control" id="EndDate" aria-describedby="emailHelp" required>              
+                </div>
+                <button type="button" class="btn btn-primary" onclick="AskLeave();">تقديم</button>
+              </div>
+            </div>
+        </div>  
+    </div> 
+
+
+    <script src="/App/app.js"></script>
+    <script src="/App/Resources/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="/App/Resources/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="/App/Resources/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="login.js"></script>
+    <script src="leaves.js"></script>
+  </body>
+</html>
